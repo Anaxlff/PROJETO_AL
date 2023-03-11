@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche ❤️</title>
+    
+    <style>
+        body{
+
+            animation: gradient 10s ease infinite;
+            background: linear-gradient(-45deg, #ee7752, #b202df, #23a6d5, #23d5ab) no-repeat;
+            background-size: 1800% 1800%;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            height: 100vh;
+            font-size: 100%;
+            }
+
+            @keyframes gradient{
+
+            0%{
+                background-position: 0 50%;
+
+            }
+
+            50%{
+
+                background-position: 100%  50%;
+
+            }
+            100%{
+
+                background-position: 0 50%;
+            }
+        }
+
+         h2 {
+
+            text-align: center;
+            
+        }
+        p{
+            color: white;
+            text-align: center;
+            line-height: 1.5em;
+        }
+        img{
+
+            
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+        }
+
+        section {
+
+        width: 500px;
+        margin: 50px auto;
+        }
+
+        .face {
+
+        width: 400px;
+        height: 300px;
+        perspective: 700px;
+        }
+
+        .front, .back {
+
+        position: absolute;
+        width: 120%;
+        height: 120%;
+        padding: 10px;
+        border-radius: 10px;
+        transition: 700ms;
+        }
+
+        .front {
+
+
+        z-index: 1;
+        }
+
+        .back {
+
+        background: lightslategray;
+        transform: rotateY(-180deg);
+        backface-visibility: hidden;
+        }
+
+        .face:hover .front {
+
+        transform: rotateY(180deg);
+        z-index: 0;
+        }
+
+        .face:hover .back {
+
+        transform: rotateY(0);
+        z-index: 1;
+        }
+       
+    </style>
+
+
+</head>
+<body>
+    <section>
+        <div class="face">
+          <div class="front">
+            
+            <img src="img/19029474_1953151731570432_4490847237026209148_n.jpg" >
+            
+    
+          </div>
+          
+          <div class="back">
+            <h2>TEXTINHO ❤️</h2>
+             <p> Você precisa saber de algumas coisas! <br> Você tem um sorriso perfeito ! <br> Tenho ORGULHO de você ❤️<br> VOCÊ é umas das pessoas mais forte que já conheci❤️ <br>Você é perfeita❤️ <br> Nunca mude seu brilho❤️ <br> Gostei de passar o fds com vc ❤️ <br> Sempre estarei aqui quando precisar❤️ <br> <br>  Porsche ❤️ </p>
+             <br> 
+             <marquee behavior="" direction="left">❤️❤️❤️❤️❤️❤️❤️❤️</marquee>
+          </div>
+        </div>
+      </section>
+        <script language="javascript">
+
+    window.alert('OIII MEU BEM, ESPERO QUE GOSTE ❤️,  PARA FUNCIONAR APERTA NO CARD, É UM CARD ANIMADO COM UM TEXTO <3');
+    </script>
+
+
+</body>
+</html>
